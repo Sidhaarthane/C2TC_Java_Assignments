@@ -3,14 +3,16 @@ package Assignment3.library;
 import java.util.ArrayList;
 import java.util.List;
 
+import Assignment3.Items.Item;
+
 /**
  * Library class (HAS-A relationship with Item)
  */
-public class Library {
+public class library {
     private List<Item> items;
 
     // Constructor
-    public Library() {
+    public library() {
         items = new ArrayList<>();
     }
 
