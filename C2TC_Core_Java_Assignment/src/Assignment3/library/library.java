@@ -6,11 +6,11 @@ import java.util.List;
 /**
  * Library class (HAS-A relationship with Item)
  */
-public class library {
+public class Library {
     private List<Item> items;
 
     // Constructor
-    public library() {
+    public Library() {
         items = new ArrayList<>();
     }
 

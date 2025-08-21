@@ -1,6 +1,8 @@
 package Assignment3.Main;
 
 import Assignment3.Items.Book;
+import Assignment3.Items.Magazine;
+import Assignment3.library.Library;
 
 /**
  * Main class for Assignment 3
@@ -18,11 +20,11 @@ public class Assignment3Main {
         magazine.displayInfo();
 
         // Part B - Composition demonstration
-        library library = new library();
-        library.addItem(book);
-        library.addItem(magazine);
+        Library lib = new Library();   // ✅ fixed class name and variable name
+        lib.addItem(book);
+        lib.addItem(magazine);
 
         System.out.println("\n=== Composition Demo ===");
-        library.showAllItems();
+        lib.showAllItems();
     }
 }
